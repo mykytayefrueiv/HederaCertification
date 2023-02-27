@@ -1,0 +1,16 @@
+{
+  "name": "token_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.20.0",
+    "dotenv": "^16.0.1"
+  },
+  "scripts": {
+    "start:createfungible": "cd ..;node Token_Service/scripts/taskFungible/createToken1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
